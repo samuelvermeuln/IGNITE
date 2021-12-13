@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\samuel\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add sass
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.11_9\bin;C:\Users\samuel\AppData\Local\Android\Sdk\emulator;C:\Users\samuel\AppData\Local\Android\Sdk\tools;C:\Users\samuel\AppData\Local\Android\Sdk\tools\bin;C:\Users\samuel\AppData\Local\Android\Sdk\platform-tools;C:\Users\samuel\AppData\Local\Yarn\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.9;C:\Program Files\nodejs\;C:\Users\samuel\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\samuel\AppData\Local\Programs\Python\Python37\;C:\Users\samuel\.dotnet\tools;C:\Users\samuel\AppData\Local\Microsoft\WindowsApps;C:\Users\samuel\AppData\Local\Programs\Microsoft VS Code\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Python 3.9;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2.3\bin;;C:\Users\samuel\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm 2021.2.3\bin;;C:\apache-maven-3.8.4\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\samuel\Documents\GitHub\IGNITE\ignews\node_modules\@next\swc-win32-x64-msvc\next-swc.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "ignews",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    },
+    "dependencies": {
+      "next": "12.0.7",
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    },
+    "devDependencies": {
+      "@types/node": "^16.11.12",
+      "@types/react": "^17.0.37",
+      "eslint": "8.4.1",
+      "eslint-config-next": "12.0.7",
+      "typescript": "^4.5.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
