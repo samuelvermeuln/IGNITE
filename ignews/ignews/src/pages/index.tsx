@@ -1,4 +1,7 @@
-import Head from 'next/head'
+import Head from 'next/head';
+
+import { SubscriberButton } from '../components/SubscribeButton';
+import styles from './home.module.scss';
 
 export default function Home() {
   return (
@@ -7,19 +10,21 @@ export default function Home() {
         <title>Ig-/News</title>
       </Head>
 
-      <main>
-        <section>
+      <main className={styles.contentContainer}>
+        <section className={styles.hero}>
           <span> Hey welcome</span>
-          <h1>News about the < span>React</span> World. </h1>
+          <h1>
+            News about the <span>React</span> World.{" "}
+          </h1>
           <p>
             Get access to all the publications <br />
             <span>for $9.90 month</span>
           </p>
+          <SubscriberButton/>
         </section>
 
-        <img src="/images/avatar.svg" alt="Girl coding"/>
+        <img src="/images/avatar.svg" alt="Girl coding" />
       </main>
-      <h1 >hello word</h1>
     </>
-  );
+  )
 }
