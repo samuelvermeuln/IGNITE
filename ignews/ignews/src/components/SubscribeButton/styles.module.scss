@@ -16,6 +16,8 @@
 
     &:hover {
         // filter: brightness(0.8);
-        color: var(--White)
+        color: var(--White);
+        background-color: #ecba55;
+        filter:brightness(0.8);
     }
 }
